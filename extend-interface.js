@@ -8,7 +8,7 @@ let extendify = function(ext, supr, cls){
         copy.prototype[key] = ext[key];
     });
     copy.extend = function(ext, supr){
-        return makeMergedCopyAndExtendify(ext, supr, copy);
+        return extendify(ext, supr, copy);
     };
     return copy;
 }
