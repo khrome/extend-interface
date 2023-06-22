@@ -26,6 +26,7 @@
     }
     
     extendify.default = extendify;
+    extendify.extend = extendify;
     
     return extendify;
 }));
