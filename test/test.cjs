@@ -1,5 +1,5 @@
 const should = require('chai').should();
-const extend = require('../extend-interface')
+const extend = require('../extend-interface.cjs');
 
 describe('extend-interface', ()=>{
     describe('extends abstract function', ()=>{
